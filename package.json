@@ -1,0 +1,30 @@
+{
+  "name": "politician-tests-api-jest-supertest",
+  "version": "1.0.0",
+  "description": "API tests for politician service",
+  "scripts": {
+    "test": "npx jest",
+    "test:watch": "npx jest --watch"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "jest-expect-message"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristian-m-vasile/politician-tests-api-jest-supertest.git"
+  },
+  "author": "Cristian Vasile",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristian-m-vasile/politician-tests-api-jest-supertest/issues"
+  },
+  "homepage": "https://github.com/cristian-m-vasile/politician-tests-api-jest-supertest#readme",
+  "dependencies": {
+    "jest": "^25.3.0",
+    "jest-expect-message": "^1.0.2",
+    "lodash.omit": "^4.5.0",
+    "supertest": "^4.0.2"
+  }
+}
