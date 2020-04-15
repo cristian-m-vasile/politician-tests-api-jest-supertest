@@ -14,7 +14,7 @@ npm test
 ## Execution
 To execute tests simply write `npm test`   
 The results are printed directly to console   
-If you would like a test watch as you're modifying them, run `npm test:watch`
+If you would like a test watch as you're modifying them, run `npm run test:watch`
 
 ## Choices
 * used Facebook's `jest` as it is a very popular testing framework
