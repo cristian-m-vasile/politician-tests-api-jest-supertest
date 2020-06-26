@@ -4,7 +4,8 @@
   "description": "API tests for politician service",
   "scripts": {
     "test": "npx jest",
-    "test:watch": "npx jest --watch"
+    "test:watch": "npx jest --watch",
+    "test:coverage": "npx jest --coverage; npx coveralls < coverage/lcov.info"
   },
   "jest": {
     "setupFilesAfterEnv": [
@@ -22,9 +23,12 @@
   },
   "homepage": "https://github.com/cristian-m-vasile/politician-tests-api-jest-supertest#readme",
   "dependencies": {
-    "jest": "^25.3.0",
     "jest-expect-message": "^1.0.2",
     "lodash.omit": "^4.5.0",
     "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "coveralls": "^3.1.0",
+    "jest": "^25.5.4"
   }
 }
